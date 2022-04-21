@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { AnySchema } from "yup";
 
-export class validateShape {
+export class ValidateShape {
   handle =
     (shape: AnySchema) =>
     async (

@@ -1,9 +1,6 @@
 import { inject, injectable } from "tsyringe";
 
-import {
-  IUserInterface,
-  IUserRepo,
-} from "../repository/InterfaceUserRepository";
+import { IUserRepo } from "../repository/InterfaceUserRepository";
 
 @injectable()
 class DeleteUserServices {

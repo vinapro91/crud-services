@@ -5,15 +5,6 @@ import {
   IUserRepo,
 } from "../repository/InterfaceUserRepository";
 
-interface IRequest {
-  fullName: string;
-  cpf: string;
-  alias: string;
-  gender: string;
-  phone: string;
-  comments: string;
-  profilePicture: string;
-}
 @injectable()
 class RetriveUserService {
   constructor(
